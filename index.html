@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentinel Quran — Daily Ayah & Ramadhan Coach</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { background: #06110f; color: #f8fafc; font-family: 'Inter', sans-serif; }
+    .quran-font { font-family: 'Amiri', serif; }
+    .glass {
+      background: rgba(6, 30, 24, 0.75);
+      backdrop-filter: blur(24px);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body class="min-h-screen p-4 sm:p-8 flex flex-col items-center justify-center">
+  <div class="w-full max-w-3xl glass rounded-3xl p-6 sm:p-8 space-y-6">
+    <div class="flex items-center justify-between border-b border-emerald-500/20 pb-4">
+      <div class="flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-600 flex items-center justify-center text-2xl shadow-lg">
+          🕌
+        </div>
+        <div>
+          <h1 class="font-extrabold text-white text-xl">Sentinel Quran & Daily Ayah</h1>
+          <p class="text-xs text-emerald-300">Offline-First Quran AI Coach & Daily Ayah Broadcast</p>
+        </div>
+      </div>
+      <a href="https://hub.sentinelai.studio" class="px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-slate-300">
+        Master Hub ↗
+      </a>
+    </div>
+
+    <!-- Daily Ayah Card -->
+    <div class="p-6 rounded-2xl bg-emerald-950/40 border border-emerald-500/20 text-center space-y-4">
+      <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold font-mono">
+        Surah Al-Baqarah • Ayah 286
+      </span>
+      <div class="text-2xl sm:text-3xl text-emerald-100 quran-font leading-loose py-2">
+        لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا
+      </div>
+      <p class="text-sm text-emerald-200/90 italic font-serif">
+        "Allah does not burden a soul beyond that it can bear..."
+      </p>
+      <div class="text-xs text-slate-400 font-mono">
+        Bot Service: @QuranReminderBot • 24/7 Automated Delivery
+      </div>
+    </div>
+  </div>
+</body>
+</html>
